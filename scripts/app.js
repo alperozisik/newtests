@@ -21,4 +21,13 @@ stylerBuilder.setActiveTheme(settings.config.theme.currentTheme);
 
 // Define routes and go to initial page of application
 Router.add("supdev576", require("./pages/supdev576"));
-Router.go("supdev576");
+Router.add("supdev564", require("./pages/supdev564"));
+Router.add("supdev541", require("./pages/supdev541"));
+Router.add("page2", require("sf-extension-oracle-jet/samples/samplePage"));
+Router.add("page3", require("sf-extension-oracle-jet/samples/samplePageWithOfficalCharts"));
+Router.go("page2");
+
+var rau = require("sf-extension-utils").rau;
+rau.checkUpdate();
+
+
