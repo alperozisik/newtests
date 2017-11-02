@@ -1,0 +1,76 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "f79c-4197-08b3-b9a0",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "supdev671",
+				"children": [
+					"ef5a-63df-39d7-8554",
+					"fed2-3f25-819b-b803",
+					"52a7-bee2-6350-dc21"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "ef5a-63df-39d7-8554",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "f79c-4197-08b3-b9a0",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "fed2-3f25-819b-b803",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "SUPDEV-671"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "SUPDEV-671",
+				"children": [],
+				"parent": "f79c-4197-08b3-b9a0",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "Button",
+			"id": "52a7-bee2-6350-dc21",
+			"themeProps": {
+				"Sizes": "Default",
+				"Highlights": "Default"
+			},
+			"userProps": {
+				"backgroundColor": "rgba( 170, 187, 204, 1 )"
+			},
+			"className": ".button",
+			"props": {
+				"name": "button1",
+				"text": "Button",
+				"children": [],
+				"parent": "f79c-4197-08b3-b9a0"
+			}
+		}
+	]
+}

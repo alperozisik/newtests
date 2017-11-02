@@ -9,27 +9,16 @@
 			},
 			"userProps": {},
 			"className": ".page",
-			"version": "6.4.6",
+			"version": "6.5.2",
 			"props": {
-				"backgroundColor": "#EEEEEE",
-				"orientation": "PORTRAIT",
-				"flexProps": {
-					"alignContent": "STRETCH",
-					"alignItems": "STRETCH",
-					"direction": "INHERIT",
-					"flexDirection": "COLUMN",
-					"flexWrap": "NOWRAP",
-					"justifyContent": "FLEX_START"
-				},
 				"name": "supdev541",
-				"parent": null,
 				"children": [
 					"4a79-d2df-b968-45af",
 					"c5fe-5878-9239-0543",
 					"d000-aab3-70e0-17a7"
 				],
-				"width": 161.25,
-				"height": 259.28999999999996
+				"parent": null,
+				"orientation": "PORTRAIT"
 			}
 		},
 		{
@@ -41,11 +30,9 @@
 			"userProps": {},
 			"className": ".statusBar",
 			"props": {
-				"color": "#00A1F1",
-				"visible": true,
 				"name": "statusBar",
-				"parent": "a0bf-ec68-002e-8443",
 				"children": [],
+				"parent": "a0bf-ec68-002e-8443",
 				"isRemovable": false
 			}
 		},
@@ -60,13 +47,10 @@
 			},
 			"className": ".headerBar",
 			"props": {
-				"title": "URI scheme call within Android WebView",
-				"titleColor": "#000000",
-				"visible": true,
-				"backgroundColor": "#FFFFFF",
 				"name": "headerBar",
-				"parent": "a0bf-ec68-002e-8443",
+				"title": "URI scheme call within Android WebView",
 				"children": [],
+				"parent": "a0bf-ec68-002e-8443",
 				"isRemovable": false
 			}
 		},
@@ -86,23 +70,10 @@
 			},
 			"className": ".webView",
 			"props": {
-				"height": null,
-				"width": null,
-				"touchEnabled": true,
-				"visible": true,
-				"backgroundColor": "#FFFFFF",
-				"alpha": 1,
-				"borderColor": "rgba(0,0,0,1)",
-				"borderWidth": 0,
-				"flexProps": {
-					"alignSelf": "AUTO",
-					"positionType": "RELATIVE",
-					"flexGrow": 1
-				},
 				"name": "webView",
-				"parent": "a0bf-ec68-002e-8443",
+				"usePageVariable": true,
 				"children": [],
-				"usePageVariable": true
+				"parent": "a0bf-ec68-002e-8443"
 			}
 		}
 	]

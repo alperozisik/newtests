@@ -18,16 +18,12 @@ const stylerBuilder = require("library/styler-builder");
 const settings = require("./settings.json");
 stylerBuilder.registerThemes(settings.config.theme.themes || "Defaults");
 stylerBuilder.setActiveTheme(settings.config.theme.currentTheme);
-
+const pages = ["supdev576", "supdev564", "supdev541", "supdev611"];
+pages.forEach(item => Router.add(item, require(`./pages/${item}`)));
 // Define routes and go to initial page of application
-Router.add("supdev576", require("./pages/supdev576"));
-Router.add("supdev564", require("./pages/supdev564"));
-Router.add("supdev541", require("./pages/supdev541"));
 Router.add("page2", require("sf-extension-oracle-jet/samples/samplePage"));
 Router.add("page3", require("sf-extension-oracle-jet/samples/samplePageWithOfficalCharts"));
-Router.go("page2");
+Router.go("supdev576");
 
 var rau = require("sf-extension-utils").rau;
 rau.checkUpdate();
-
-
