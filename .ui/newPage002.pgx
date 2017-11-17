@@ -1,0 +1,92 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "515e-bff8-9c37-761d",
+			"userProps": {},
+			"props": {
+				"name": "newPage002",
+				"parent": null,
+				"children": [
+					"d806-df50-96ba-642c",
+					"bf39-1a75-4d3d-1029"
+				],
+				"orientation": "PORTRAIT"
+			},
+			"version": "6.5.2",
+			"initialized": false
+		},
+		{
+			"type": "StatusBar",
+			"id": "d806-df50-96ba-642c",
+			"userProps": {},
+			"props": {
+				"name": "statusBar",
+				"parent": "515e-bff8-9c37-761d",
+				"children": [],
+				"visible": true,
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "bf39-1a75-4d3d-1029",
+			"userProps": {
+				"title": "newPage002"
+			},
+			"props": {
+				"name": "headerBar",
+				"parent": "515e-bff8-9c37-761d",
+				"children": [],
+				"title": "newPage002",
+				"visible": true,
+				"isRemovable": false
+			}
+		}
+	],
+	"componentByID": {
+		"8bf3-9a1d-9444-9829": {
+			"type": "Page",
+			"id": "8bf3-9a1d-9444-9829",
+			"userProps": {},
+			"props": {
+				"name": "newPage002",
+				"parent": null,
+				"children": [
+					"dfee-b7f1-b98a-25c2",
+					"d164-16be-0c8a-f24c"
+				],
+				"orientation": "PORTRAIT"
+			},
+			"version": "6.5.2",
+			"initialized": false
+		},
+		"dfee-b7f1-b98a-25c2": {
+			"type": "StatusBar",
+			"id": "dfee-b7f1-b98a-25c2",
+			"userProps": {},
+			"props": {
+				"name": "statusBar",
+				"parent": "8bf3-9a1d-9444-9829",
+				"children": [],
+				"visible": true,
+				"isRemovable": false
+			}
+		},
+		"d164-16be-0c8a-f24c": {
+			"type": "HeaderBar",
+			"id": "d164-16be-0c8a-f24c",
+			"userProps": {
+				"title": "newPage002"
+			},
+			"props": {
+				"name": "headerBar",
+				"parent": "8bf3-9a1d-9444-9829",
+				"children": [],
+				"title": "newPage002",
+				"visible": true,
+				"isRemovable": false
+			}
+		}
+	}
+}

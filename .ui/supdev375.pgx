@@ -1,0 +1,82 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "0c52-b106-6045-9ba3",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {
+				"flexProps": {
+					"alignItems": "CENTER",
+					"justifyContent": "CENTER"
+				}
+			},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "supdev375",
+				"children": [
+					"0ce1-9673-aec2-9459",
+					"379d-50c1-36c4-3685",
+					"bf33-f305-6cec-f1e3"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "0ce1-9673-aec2-9459",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "0c52-b106-6045-9ba3",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "379d-50c1-36c4-3685",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "supdev375"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "supdev375",
+				"children": [],
+				"parent": "0c52-b106-6045-9ba3",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "Button",
+			"id": "bf33-f305-6cec-f1e3",
+			"themeProps": {
+				"Sizes": "Default",
+				"Highlights": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true
+			},
+			"className": ".button",
+			"props": {
+				"name": "btn",
+				"text": "Button",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "0c52-b106-6045-9ba3"
+			}
+		}
+	]
+}

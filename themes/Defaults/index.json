@@ -78,6 +78,10 @@
 				"Small": ".label-small",
 				"Medium": ".label-medium",
 				"Large": ".label-large"
+			},
+			"New Category": {
+				"Default": ".label-newCat-default",
+				"Alternative": ".label-newCat-alternative"
 			}
 		},
 		"ListView": {

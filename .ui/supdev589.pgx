@@ -1,0 +1,80 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "fdea-d125-221e-9411",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "supdev589",
+				"children": [
+					"462b-34e9-32cc-0c58",
+					"cfb8-189e-112d-edc8",
+					"0cac-8cda-97ab-8e69"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "462b-34e9-32cc-0c58",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "fdea-d125-221e-9411",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "cfb8-189e-112d-edc8",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "newPage001"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "newPage001",
+				"children": [],
+				"parent": "fdea-d125-221e-9411",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "Label",
+			"id": "0cac-8cda-97ab-8e69",
+			"themeProps": {
+				"Sizes": "Default",
+				"New Category": "Alternative"
+			},
+			"userProps": {
+				"left": 81.63265306122449,
+				"top": 142.85714285714286,
+				"flexProps": {
+					"positionType": "ABSOLUTE"
+				}
+			},
+			"className": ".label .label-newCat-default .label-newCat-alternative",
+			"props": {
+				"name": "label1",
+				"text": "Label",
+				"children": [],
+				"parent": "fdea-d125-221e-9411"
+			}
+		}
+	]
+}

@@ -1,0 +1,128 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "c3b2-59a0-e901-0423",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {
+				"flexProps": {
+					"flexDirection": "COLUMN_REVERSE"
+				}
+			},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "supdev566",
+				"children": [
+					"896c-a58a-face-83b7",
+					"38f2-cf02-13e8-8458",
+					"4aea-a938-b716-7712",
+					"e458-f567-ecde-7142",
+					"d316-1240-9ad6-d925"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "896c-a58a-face-83b7",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "c3b2-59a0-e901-0423",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "38f2-cf02-13e8-8458",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "newPage001"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "newPage001",
+				"children": [],
+				"parent": "c3b2-59a0-e901-0423",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "Label",
+			"id": "4aea-a938-b716-7712",
+			"themeProps": {
+				"Sizes": "Default",
+				"New Category": "Default"
+			},
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"usePageVariable": true,
+				"text": "lbl1",
+				"top": 10
+			},
+			"className": ".label .label-newCat-default",
+			"props": {
+				"name": "lbl1",
+				"text": "lbl1",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "c3b2-59a0-e901-0423"
+			}
+		},
+		{
+			"type": "Label",
+			"id": "e458-f567-ecde-7142",
+			"themeProps": {
+				"Sizes": "Default",
+				"New Category": "Default"
+			},
+			"userProps": {
+				"backgroundColor": "rgba( 155, 155, 155, 1 )",
+				"text": "lbl2",
+				"usePageVariable": true,
+				"bottom": 10
+			},
+			"className": ".label .label-newCat-default",
+			"props": {
+				"name": "lbl2",
+				"text": "lbl2",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "c3b2-59a0-e901-0423"
+			}
+		},
+		{
+			"type": "Button",
+			"id": "d316-1240-9ad6-d925",
+			"themeProps": {
+				"Sizes": "Default",
+				"Highlights": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true,
+				"text": "bringToFront"
+			},
+			"className": ".button",
+			"props": {
+				"name": "btn",
+				"text": "bringToFront",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "c3b2-59a0-e901-0423"
+			}
+		}
+	]
+}
